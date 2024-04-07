@@ -28,8 +28,6 @@ export default function AuthenticationPage() {
     console.log(formData)
 
     register(formData.get("name") as string, formData.get("username") as string, formData.get("email") as string, formData.get("role") as string, formData.get("password") as string)
-
-
     router.push("/dashboard")
 
 

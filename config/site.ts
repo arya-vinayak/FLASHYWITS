@@ -2,24 +2,23 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "FLARE",
-  description:
-    " A Personalised Flashcard Learning System for Students",
+  description: " A Personalised Flashcard Learning System for Students",
   mainNav: [
-    {
-      title: "Login",
-      href: "/login",
-    },
-    {
-      title: "Register",
-      href: "/register",
-    },
+    // {
+    //   title: "Login",
+    //   href: "/login",
+    // },
+    // {
+    //   title: "Register",
+    //   href: "/register",
+    // },
     {
       title: "Home",
       href: "/home",
     },
     {
       title: "GitHub",
-      href: "/",
+      href: "https://github.com/arya-vinayak/FLASHYWITS.git",
     },
   ],
   links: {

@@ -38,7 +38,7 @@ export default function IndexPage() {
         </Link>
       </div>
       <div className="relative z-20 mt-auto ">
-          <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10 col-span-4 flex items-center justify-center grid-cols-2 gap-50">
+          <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10 col-span-4 flex items-center justify- grid-cols-2 gap-20">
             <Lottie
               animationData={login}
               style={{ height: 600, width: 600 }}

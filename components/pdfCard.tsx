@@ -75,7 +75,7 @@ const AddFiles = () => {
 
   return (
     <>
-      <Card>
+      <Card className="ml-20 " >
         <CardHeader>
           <CardTitle>File Upload</CardTitle>
           <CardDescription>Upload study material here</CardDescription>

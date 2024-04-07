@@ -26,7 +26,7 @@ export default function SelectDemo() {
     const fetchDocs = async () => {
       try {
         const response = await fetch(
-          "https://684c-1-6-74-117.ngrok-free.app/pdfs",
+          "https://7ac4-1-6-74-117.ngrok-free.app/pdfs",
           {
             method: "GET",
             headers: {
@@ -69,7 +69,7 @@ export default function SelectDemo() {
         </SelectGroup>
       </SelectContent>
     </Select>
-    <div className="w-screen h-screen flex justify-left items-center ">
+    <div className="w-screen h-screen flex justify-left ml-20 mt-10">
       {link && (
         <iframe
           loading="lazy"

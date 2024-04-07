@@ -21,11 +21,6 @@ const sidebarItmes: SideNavItemType[] = [
     label: "Flashcards",
     href: "/home/flashcards",
   },
-  {
-    label: "Quiz",
-    href: "/home/preview/quiz",
-  },
-  
 ]
 
 
